@@ -1,10 +1,11 @@
 // src/runtime/plugin.ts
 
 export default defineNuxtPlugin(nuxtApp => {
-	const pixelId = nuxtApp.$config.tiktokPixelId;
+	// Retrieve TikTok Pixel ID from public runtime config
+	const pixelId = nuxtApp.$config.public.tiktokPixel?.pixelId;
 
 	if (!pixelId) {
-		console.warn("TikTok Pixel ID is not defined in nuxt.config.js");
+		console.warn("TikTok Pixel ID is not defined in runtimeConfig.public.tiktokPixel.pixelId");
 		return;
 	}
 
