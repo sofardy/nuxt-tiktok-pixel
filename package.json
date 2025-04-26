@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-tiktok-pixel",
+  "version": "1.0.0",
+  "description": "Nuxt 3 module for integrating TikTok Pixel.",
+  "main": "src/module.ts",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "nuxt",
+    "tiktok",
+    "pixel",
+    "module"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "nuxt": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "eslint": "^7.0.0"
+  }
+}
